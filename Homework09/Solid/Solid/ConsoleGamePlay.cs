@@ -1,6 +1,7 @@
 
 namespace Solid
 {
+    // Принцип инверсии зависимостей (Dependency Inversion Principle)
     public class ConsoleGamePlay : IUserInput, IGamePlay
     {
         private readonly INumberGenerator _numberGenerator;

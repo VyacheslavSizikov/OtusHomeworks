@@ -1,6 +1,7 @@
 ﻿
 namespace Solid
 {
+    // Принцип единственной ответственности (Single Responsibility Principle)
     public class NumberGenerator : INumberGenerator
     {
         private readonly int _minValue;
